@@ -31,7 +31,7 @@ section{
     background:slateblue;
     padding: 10px 40px;
     border-radius: 5px;
-    color: white;
+    color:black;
     font-weight: 700;
 }
 .section1{
@@ -39,6 +39,7 @@ section{
     background-image: url(images/top-banner.png);
     text-align: center;
     background-repeat: no-repeat;
+    padding: 1%;
 }
 
 .div2 img{
@@ -55,7 +56,100 @@ section{
 }
 
 .section2{
-    background-image:url(images/sky.jpg);
+    background-image:url(images/red.jpg);
     background-repeat: no-repeat;
     background-position: right;
+    }
+
+
+
+.section3{display:block;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    text-align: center;
+    padding:1%;
+
 }
+
+
+.Section3 p{
+    color: black;
+    font-size:1%;
+    margin-bottom: 10px;
+    padding: 1%;
+    
+    
+}
+
+
+
+
+.section4{
+    padding: 1%;
+    justify-content: center;
+    background-image: url(images/red.jpg);
+}
+
+
+
+
+.card-containers{
+    box-sizing:border-box ;
+    display: flex;
+    background-color: plum;
+    padding: 20px;
+    justify-content: center;
+
+}
+
+.card{
+ width:200px;
+ margin:5px;
+ box-sizing: border-box;
+ box-shadow: 2px 2px 5px brown;
+ border-radius: 10px;
+
+}
+
+.img-style{
+ width:100%;
+ border-radius:10px;
+}
+
+.card-body{
+ padding:5%;
+ background-color:white;
+ border-radius: 100px;
+
+}
+.card-title{
+ text-align: center;
+ font-size: 2rem;
+}
+
+.item-name{
+ font-size:50px;
+ padding:1%;
+}
+
+.card-desc{
+ padding: 1%;
+ text-align:center;
+ color:black;    
+}
+
+.card:hover{
+ box-shadow: 6px 12px 10px black;
+}
+
+.Section5{display:block;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    text-align: center;
+    background-color:black;
+    padding: 1%;
+    
+}
+.color{color:plum;}
+
+
